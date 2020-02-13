@@ -1,11 +1,10 @@
 ## Requirements  
-* docker  
-* docker-compose  
-* git  
+* docker ~18.09.7
+* docker-compose  ~1.21.0
+* git (client)
 
-## Install  
-Run:  
-`git clone <this-repo>`  
-`cd <this-repo>`  
+## Installation
+`git clone https://github.com/fausthor97/wordpress-docker.git`  
+`cd wordpress-docker`  
 `docker-compose up -d`  
-Now wait a bit for it to start up and access through http://<host-ip>:8001
+Now wait for it to start up and access through http://<host-ip>:80
